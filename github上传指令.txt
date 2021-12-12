@@ -1,0 +1,20 @@
+第一步：将文件夹格式化
+git init
+
+第二步：将文件夹添加：
+git add .
+
+第三步:将文件上传：
+git commit -m"此为注释说明"
+
+第四步：关联github仓库
+git remote add origin 此部分为ssh指令连接
+第四步中，可能出现仓库已经关联的情况
+输入：git remote rm origin即可删除已关联的仓库
+
+第五步：上传本地代码
+git push -u origin master
+
+第五步中，可能出现已有文件在仓库中，将“-u”去掉即可
+或者以后readme.txt文件，此时需要将指令修改成
+git pull --rebase origin master
