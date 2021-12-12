@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    font-family: 宋体;
+}
+.top{
+    height:76px;
+    background-color:#fff;
+}
+.header{
+    height: 100%;
+    width: 1002px;
+    margin: 0 auto;
+}
+.header a img{
+    height: 52px;
+    width: 140px;
+    float: left;
+}
+.dh li{
+    font-family: 宋体;
+    display: inlinde;
+    float: left;
+    position: relative;
+    left: 420px;
+    list-style: none;
+    line-height: 52px;
+    margin-right: 15px;
+}
+.first{
+    font-weight: 900;
+}
+.dh li:hover{
+    font-weight: 800;
+}
+
+.banner{
+    width: 100%;
+    height: 484px;
+    margin-bottom: 100px;
+}
+.banner img{
+    width: 100%;
+    height: 524px;
+}
+.text{
+    width: 1380px;
+    height: 144px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    bottom: 350px;
+    left: 450px;
+    margin: 0;
+    line-height: 50px;
+    letter-spacing: 15px;
+
+}
+.text p{
+    line-height: 10px;
+}
+.weiba{
+    width: 1650px;
+    height: 40px;
+    background-color: #01118E;
+}
+/* .weiba1{
+    width: 765px;
+    height:39px;
+    background-color: black;
+    float: left;
+}
+.weiba2{
+    width: 760px;
+    height:39px;
+    background-color: black;
+    float: right;
+} */
+
+.box-info{
+    height: 138px;
+    width: 1650px;
+    margin-top: 600px;
+}
+.box{
+    width: 840px;
+    margin: 0 auto;
+    text-indent: 2em;
+    font-weight: 100;
+    font-family: 宋体;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.contain{
+    text-align: center;
+    font-family: 黑体;
+    margin-bottom: 50px; 
+}
+.product-main{
+    width: 1002px;
+    height: 1600px;
+    margin: 0 auto;
+    font-family: 黑体;
+    
+}
+.product-main ul{
+    list-style: none;
+    margin-bottom: 70px;
+}
+.product-item{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-chain.1264a7c.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.container{
+    margin: 36px;
+}
+.container p{
+    font-family: 宋体;   
+}
+.container a{
+    display: inline-block;
+    background-color: #046EFB;
+    width: 110px;
+    height: 38px;
+    border-radius: 39px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+}
+.product-item2{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-fintech.a950588.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.product-item3{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-loan.26bdc4f.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.product-item4{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-finance.332c2ae.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.product-item5{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-insurance.9bfeded.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.product-item6{
+    width: 45%;
+    height: 260px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mifi-web/img/box-wallet.322e8da.png);
+    background-size: 495px 260px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+.c2{
+    width: 1002px;
+    height: 224px;
+    margin-bottom: 100px;
+}
+.c2>li{
+    width: 220px;
+    height: 224px;
+    display: inline-block;
+    text-align: center;
+}
+.c2 li img{
+    height: 72px;
+    width: 72px;
+}
+.bottom{
+    width: 1002px;
+    height: 302px;
+    margin-bottom: 200px;
+}
+.bottom h1{
+    text-align: center;
+}
+.bottom ul li{
+    display: inline-block;
+}
+.bottom ul li img{
+    width: 180px;
+    height: 84px;
+}
+.footer{
+    font-family: 黑体;
+    width: 100%;
+    height: 464px;
+    background-color:#1F222C ;
+}
+.footer1{
+    width: 1002px;
+    height: 464px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.footer1 h1{
+    color: #fff;
+}
+.footer1 span{
+    color:#fff;
+}
+.footer ul{
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+.footer1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.line{
+    width: 72px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    bottom:380px;
+    left: 260px;
+}
+.footer-text h1{
+    color: #fff;
+}
+.text2{
+    color: #a5a7ab;
+}
+.text1{
+    color: #fff;
+}
+.text3{
+    margin-top: 50px;
+    color: #fff;
+}
